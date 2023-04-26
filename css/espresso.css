@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    width: 100%;
+    height: 197vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(100.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navpic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: aliceblue;
+}
+.menu a {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.menu a::after {
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: lightblue;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu a:hover::after {
+    width: 100%;
+}
+.word {
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+}
+.pic {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.one {
+    padding: 21px;
+    margin: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+}
+.one img {
+    width: 250px;
+    height: 250px;
+}
+.one p {
+    color: white;
+    text-align: center;
+}
+.pic1 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.two {
+    padding: 21px;
+    margin: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+}
+.two img {
+    width: 250px;
+    height: 250px;
+}
+.two p {
+    color: white;
+    text-align: center;
+}
+.pic2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.three {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+}
+.three img {
+    width: 250px;
+    height: 250px;
+}
+.three p {
+    color: white;
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: -125%;
+    left: 0;
+    right: 0;
+    background: black;
+    height: 150px;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40p;
+    color: white;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-bottom {
+    background: black;
+    width: 100;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

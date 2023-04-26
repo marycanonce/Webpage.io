@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Americano</title>
+    <style>
+        * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(100.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navpic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: aliceblue;
+}
+.menu a {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.menu a::after {
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: lightblue;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu a:hover::after {
+    width: 100%;
+}
+.word {
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+}
+.sale {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(2.jpg);
+}
+.sale img {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+table {
+    width: 500px;
+    height: 100px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+p {
+    color: white;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="start">
+        <div class="navpic">
+            <h1 class="logo">The<sup>Bike<sub>Coffee</h1>
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="product.html">PRODUCTS</a>
+                <a href="about.html">ABOUT US</a>
+            </div>
+        </div>
+
+        <div class="word">
+            <h1>The Bike Coffee</h1>
+            <h4>Kape Gamay Istorya Daghan</h4>
+            <h3>Americano</h3>
+        </div>
+
+        <div class="sale">
+            <img src="pic10.jpg">
+            <table border="1">
+                <tr> 
+                    <th>HOT<br>8 oz.</br></th>
+                    <th>ICED<br>16 oz.</br></th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Php 95.00</td>
+                    <td style="text-align: center;">Php 120.00</td>
+                </tr>
+            </table>
+            <p>"I didn’t ask for pep talk. What I want is a frigging cup of coffee!"</p>
+        </div>
+
+        <footer>
+            <p>Created By<br> COC Phinmaed Student of FA1-IT1-04.<br>
+            <a href="https://coc.phinma.edu.ph/">https://coc.phinma.edu.ph/</a></p> 
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(100.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navpic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: aliceblue;
+}
+.menu a {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.menu a::after {
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: lightblue;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu a:hover::after {
+    width: 100%;
+}
+.word {
+    color: aliceblue;
+    margin-top: 100px;
+    text-align: center;
+}
+.sale img {
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-right: 200px;
+}
+table {
+    width: 600px;
+    height: 100px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+}p {
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+footer p{
+    margin-top: 190px;
+    margin-left: 30px;
+    text-align: center;
+}
